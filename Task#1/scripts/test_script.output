@@ -1,0 +1,15 @@
+*** TEST1
+init default rate to value: .1
+change default rate from .1 to .5
+do calc: amount=1000; rate=.5; interest=500
+
+*** TEST2
+change default rate from .5 to .6
+do calc: amount=1000; rate=.6; interest=600
+
+*** TEST3
+do calc: amount=1000; rate=.3; interest=300
+
+*** TEST3
+special rate requested
+do calc: amount=1000; rate=.2; interest=200
