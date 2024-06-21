@@ -1,5 +1,7 @@
 package ru.kotin.pavel;
 
+import ru.kotin.pavel.a.ClassA;
+
 public class Main {
     public static void main(String[] args) {
         ClassA a = new ClassA();
@@ -16,7 +18,7 @@ public class Main {
         v_amt = a.calcSpecialInterest(1000, 0.3);
 
         System.out.println("*** TEST4");
-        v_amt = a.calcSpecialInterest(1000, null);
+        v_amt = a.calcSpecialInterest(1000,  null);
 
     }
 }
