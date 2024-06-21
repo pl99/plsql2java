@@ -1,7 +1,6 @@
-import org.junit.jupiter.api.BeforeEach;
+package ru.kotin.pavel.a;
+
 import org.junit.jupiter.api.Test;
-import ru.kotin.pavel.a.ClassA;
-import ru.kotin.pavel.b.ClassB;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
